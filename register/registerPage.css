@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #50406b;
+}
+
+
+.container {
+    margin: 200px auto;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.signUpBtnBg, .loginButton, .login, .text, .icon, .socialMediaIcons, .orText, .container, .signUp, .email, .password, .rememberMe, .signUpButton, .forgotPasswordButton, .dataToLogIn, .emailInput, .passwordInput, .rememberMeText, .emailText, .passwordText {
+    background-color: aliceblue;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.emailText {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordText {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.passwordInput {
+    border-radius: 5px;
+    width: 235px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+.emailInput {
+    border-radius: 5px;
+    width: 235px;
+    margin-left: 30px;
+    height: 25px;
+}
+
+.rememberMe {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.rememberMeText {
+    font-size: 15px;
+    font-weight: 5px;
+}
+
+.signUpButton {
+    border-radius: 5px;
+    width: 240px;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 30px;
+    font-size: 17px;
+    background-color: #311a42;
+    box-shadow: 1px 1px 2px 2px rgb(114, 113, 113);
+    color: #fff;
+}
+
+.signUpButton:hover {
+    background-color: #201730;
+}
+
+.signUpButton:active {
+    transform: translateY(2px);
+}
+
+.signUp {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.orText {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.socialMediaIcons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fa-google-plus-g, .fa-facebook-f, .fa-instagram, .fa-tiktok {
+    background-color: aliceblue;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-tiktok {
+    margin-left: 15px;
+}
+
+.login {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.loginButton {
+    cursor: pointer;
+    width: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    border-bottom-style: solid;
+}
+
+.loginLink {
+    background-color: #fff;
+}
+
+.indexBtn {
+    background-color: #311a42;
+    color: #fff;
+}
+
+.indexBtn:hover {
+    background-color: #201730;
+}
+
+a {
+    text-decoration: none;
+}

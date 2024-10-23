@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #50406b;
+}
+
+
+.container {
+    margin: 200px auto;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.signUpButton, .signUp, .text, .icon, .socialMediaIcons, .orText, .container, .login, .email, .password, .rememberMe, .loginButton, .forgotPasswordButton, .dataToLogIn, .emailInput, .passwordInput, .rememberMeText, .emailText, .passwordText {
+    background-color: aliceblue;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.emailText {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordText {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.passwordInput {
+    border-radius: 5px;
+    width: 235px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+.emailInput {
+    border-radius: 5px;
+    width: 235px;
+    margin-left: 30px;
+    height: 25px;
+}
+
+.rememberMe {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.rememberMeText {
+    font-size: 15px;
+    font-weight: 5px;
+}
+
+.loginButton {
+    border-radius: 5px;
+    width: 240px;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 30px;
+    font-size: 17px;
+    background-color: #311a42;
+    box-shadow: 1px 1px 2px 2px rgb(114, 113, 113);
+    color: #fff;
+}
+
+.loginButton:hover {
+    background-color: #201730;
+}
+
+.loginButton:active {
+    transform: translateY(2px);
+}
+
+.forgotPasswordButton {
+    margin-left: 160px;
+    width: 118px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    cursor: pointer;
+    box-shadow: black;
+    margin-top: 10px;
+}
+
+.login {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.orText {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.socialMediaIcons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fa-google-plus-g, .fa-facebook-f, .fa-instagram, .fa-tiktok {
+    background-color: aliceblue;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-tiktok {
+    margin-left: 15px;
+}
+
+.signUp {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.signUpButton {
+    cursor: pointer;
+    width: 62px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    border-bottom-style: solid;
+}
+.signupLink {
+    background-color: #fff;
+}
+
+.indexBtn {
+    color: #fff;
+    background-color: #311a42;
+}
+
+.indexBtn:hover {
+    background-color: #201730;
+}
+
+a {
+    text-decoration: none;
+}
