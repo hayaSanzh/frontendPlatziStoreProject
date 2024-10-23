@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/hayaSanzh/assign6Front/blob/main/images/image1_0.jpg" width="300" height="300"/>
+</p>
+
 Platzi - Your Dream Store
 
 Platzi is an online e-commerce platform where users can browse through various product categories such as shoes, clothes, electronics, and furniture. The platform provides a smooth shopping experience with features like category selection, product browsing, and light/dark mode.
