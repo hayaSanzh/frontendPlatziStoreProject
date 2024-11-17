@@ -3,12 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const logoutButton = document.getElementById('logout-button');
     const storedUser = localStorage.getItem('loggedInEmail');
 
-    if (storedUser) {
-        document.querySelector('.login').textContent = `Logged in as ${storedUser}`;
-        loginForm.style.display = 'none';
-        logoutButton.style.display = 'block';
-    }
-
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const email = document.getElementById('email').value;
